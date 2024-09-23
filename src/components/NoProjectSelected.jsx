@@ -3,7 +3,7 @@ import Button from "./Button";
 
 export default function NoProjectSelected({ onAddProject }) {
   return (
-    <div className="mt-24 text-center w-2/3">
+    <div className="mt-24 text-center w-full md:w-2/3">
       <img
         className="w-16 h-16 object-contain mx-auto"
         src={noProjectImg}

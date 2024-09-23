@@ -38,7 +38,7 @@ export default function NewProject({ onCancelProject, onAddNewProject }) {
         <p className="text-stone-600 mb-4">Oops... looks like you forgot to enter a value.</p>
         <p className="text-stone-600 mb-4">Please make sure you enter a valid value for every input field.</p>
     </Modal>
-      <div className="w-[35rem] mt-16">
+      <div className="w-full md:w-[35rem] mt-16 px-8 md:px-0 md:pr-8 lg:pr-0">
         <menu className="flex items-center justify-end gap-4 my-4">
           <li>
             <button
